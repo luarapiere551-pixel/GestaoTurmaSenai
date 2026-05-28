@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "cores.css";
+
+/* @font-face {
+     font-family: Fortnite;
+     src: url(fonts/fortnite/fortnite.otf)
+ } */
+
+/* @font-face {
+     font-family: Mario;
+     src: url(fonts/retro_mario/RetroMario-Regular.otf)
+ } */
+@font-face {
+     font-family: Caveat;
+     src: url(fonts/Caveat/Caveat.ttf)
+ } 
+
+body{
+     color: var(--platinum);
+     font-family: Caveat; 
+     background-color: var(--midnight-violet);
+    background-color: #f0ffff;
+    color: #463e34;
+ }
+
+ 
+ul{
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    padding: 10px 2px;
+    display: inline-block;
+    background-color: #463e34;
+}
+ul li :hover{
+    background-color: #b9a285;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8f7f3e;
+    font-size: 20pt;
+}
