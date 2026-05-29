@@ -8,13 +8,38 @@ body {
     font-family: Fortnite;
     background-color: var(--midnight-violet);
 }
+
+
 .tituloPrincipal{
     text-align: center;
 }
+.tituloPrincipal span:nth-child(1){
+    color: aquamarine;
+    text-align: center;
+}
+.tituloPrincipal span:nth-child(2){
+    color: rgb(0, 119, 79);
+    text-align: center;
+}
+.tituloPrincipal span:nth-child(3){
+    color: aquamarine;
+    text-align: center;
+}
+.tituloPrincipal span:nth-child(4){
+    color: rgb(0, 119, 79);
+    text-align: center;
+}
+.tituloPrincipal span:nth-child(5){
+    color: aquamarine;
+    text-align: center;
+}
+
+
 .img-banner {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 header {
     background-color: rgb(124, 207, 221);
@@ -27,6 +52,8 @@ header {
     list-style: none;
 }
 
+
+
 .menu ul li {
     display: inline-block;
     padding: 20px;
@@ -34,9 +61,11 @@ header {
     background-color: rgb(18, 117, 247);
 }
 
+
 section {
     /* background-color: aquamarine; */
 }
+
 
 /* section section{
            font-size: 0;
@@ -52,18 +81,22 @@ section {
     box-sizing: border-box;
 }
 
+
 #turmas footer {
     background-color: rgb(183, 255, 174);
 }
+
 
 #turmas footer h3 {
     font-size: smaller;
 }
 
+
 #turmas .sala.turma_A{
     background-color: rgb(219, 254, 255);
     color: #000;
 }
+
 
 #turmas .sala.turma_B{
     background-color:  rgb(124, 207, 221);
