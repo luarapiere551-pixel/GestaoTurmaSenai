@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: rgb(14, 171, 199);
+    background-color: rgb(124, 207, 221);
 }
 .menu {
     text-align: center;
@@ -30,8 +30,8 @@ header {
 .menu ul li {
     display: inline-block;
     padding: 20px;
-    border: 1px solid #000;
-    background-color: aqua;
+    border: 1px solid #817f7f;
+    background-color: rgb(18, 117, 247);
 }
 
 section {
@@ -44,16 +44,16 @@ section {
 #turmas .sala {
     display: inline-block;
     vertical-align: top;
-    background-color: burlywood;
+    background-color: rgba(222, 184, 135, 0.795);
     min-height: 300px;
     width: 100%;
     min-height: 350px;
-    border: 2px solid #000;
+    border: 2px solid #030303;
     box-sizing: border-box;
 }
 
 #turmas footer {
-    background-color: red;
+    background-color: rgb(183, 255, 174);
 }
 
 #turmas footer h3 {
@@ -61,12 +61,12 @@ section {
 }
 
 #turmas .sala.turma_A{
-    background-color: bisque;
+    background-color: rgb(219, 254, 255);
     color: #000;
 }
 
 #turmas .sala.turma_B{
-    background-color: blueviolet;
+    background-color:  rgb(124, 207, 221);
 }
 
 
